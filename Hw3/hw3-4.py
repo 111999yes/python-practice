@@ -21,7 +21,7 @@ while True:
         print(f",{n}", end = "")
         maxium = max(n, maxium)
     print(f"\nSteps: {step}")
-    print(f"Max Value: {maxium}")
+    print(f"Max value: {maxium}")
     if step > longest_step:
         longest_step = step
         number = initnum
